@@ -1,0 +1,174 @@
+body{
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#logo img {
+width: 100px;
+height:100px;
+margin-left: 600px;
+}
+.menuitems{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.menuitems ul{
+  display: flex;
+  list-style: none;
+}
+.menuitems li{
+  padding: 10px;
+}
+.menuitems ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.icons{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 8px;
+  align-items: center;
+  padding: 10px;
+}
+ul li a:hover{
+color: #99A769;
+}
+header{
+  background: url("../images/verdure header.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 200px;
+  justify-content: space-around;
+}
+.masthead h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+}
+.masthead p{
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 100;
+}
+.masthead{
+  margin-top: 90px;
+}
+#button{
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  background-color: #99A769;
+  padding: 17px 20px;
+  font-size:15px;
+  margin-left: 590px;
+  color: #fff;
+}
+/* this the end of header style */
+
+#page1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.lemon-tea img{
+width: 600px;
+margin-left:-170px;
+}
+.main-page  {
+background:url("../images/home-2background.jpg");
+background-position: right;
+background-size: cover;
+width: 940px;
+height:385px;
+}
+.main-page h2{
+font-size: 40px;
+text-transform: uppercase;
+color: #fff;
+font-weight: 100;
+margin-left: 140px;
+}
+.main-page p{
+font-size: 17px;
+color: #fff;
+margin-left: 140px;
+line-height: 1.5;
+}
+button{
+  color: #99A769;
+  margin-left: 140px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+}
+.teas{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.gun {
+text-align: center;
+}
+
+.teas img{
+  width: 150px;
+  border-radius: 600px;
+  padding: 30px;
+
+}
+.page2{
+margin-bottom: -45px;
+}
+.shop h3{
+  text-align: center;
+  font-size:37px;
+  font-weight: 100;
+}
+.shop p{
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+}
+span{
+  color: #99A769;
+}
+.Div{
+  display: flex;
+  margin-top: 80px;
+}
+
+.page2{
+background:url("../images/home-2background.jpg");
+background-position: right;
+background-size: cover;
+height: 350px;
+width: 940px;
+}
+.two-cups img{
+  height: 350px;
+  width: 400px;
+  }
+
+  #btn{
+    margin-left: 120px;
+    background: #fff;
+    color: #99A769;
+    padding: 14px 20px;
+  }
+  h2{
+    margin-left: 120px;
+    font-size:33px;
+    font-weight: 100;
+    color: #fff;
+  }
+  .page2 p{
+    margin-left: 120px;
+    font-size:17px;
+    font-weight: 100;
+    color:#fff;
+  }
